@@ -10,7 +10,7 @@
             <tr>
                 <th scope="col">Nom</th>
                 <th scope="col">Adresse du site web</th>
-                <th scope="col">Sport olympique</th>
+                <th scope="col">Discipline olympique</th>
                 <th scope="col">Détails</th>
 
             </tr>

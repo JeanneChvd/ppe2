@@ -36,6 +36,7 @@ switch($action){
         $id = $_REQUEST['idLigue'];
 
         $laLigue = $pdo->getInfosLigue($id);
+        $lesMembres = $pdo->getMembres($id);
 
         include("./vues/v_detailLigue.php");
         break;

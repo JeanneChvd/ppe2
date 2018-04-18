@@ -133,6 +133,21 @@ class PdoM2l
         return $lesLignes;
     }
 
+    public function getMembres($idLigue)
+    {
+        $req = "SELECT m.nom as nomMembre, m.prenom as prenomMembre, m.mail as mailMembre, m.tel as telMembre, s.libelle as libelleStatut
+                FROM membre m, statut s, appartenir a, ligue l
+                WHERE m.id = a.idMembre
+                AND m.idLigue = l.id
+                AND a.codeStatut = s.code
+                AND m.idLigue = '$idLigue'";
+
+        $res = PdoM2l::$monPdo->query($req);
+        $lesLignes = $res->fetchAll();
+
+        return $lesLignes;
+
+    }
 }
 
 

@@ -45,7 +45,7 @@
 
                         <li><a href="index.php?uc=m2lpratiques&action=communications">Communications</a></li>
 
-                        <li><a href="index.php?uc=m2lpratiques&action=modalites">Modalités d'accès</a></li>
+                        <li><a href="index.php?uc=m2lpratiques&action=modalites                                                                                                                                                                                                         ">Modalités d'accès</a></li>
 
                         <li><a href="index.php?uc=m2lpratiques&action=serviceInfo">Services informatiques</a></li>
 
